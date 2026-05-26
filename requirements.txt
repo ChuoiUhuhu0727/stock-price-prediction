@@ -1,0 +1,30 @@
+# Core data science
+pandas
+numpy
+scipy
+scikit-learn
+joblib
+python-dateutil
+
+# Visualization
+matplotlib
+seaborn
+
+# Deep learning
+tensorflow
+
+# Technical analysis indicators (Task 3)
+ta
+
+# Vietnam stock data (Task 2)
+vnstock
+
+# Deployment — FastAPI backend (Task 5.1/5.2)
+fastapi
+uvicorn[standard]
+
+# Deployment — Streamlit frontend (Task 5.1/5.2)
+streamlit
+
+# Orchestration — Apache Airflow (Task 5.3)
+apache-airflow
