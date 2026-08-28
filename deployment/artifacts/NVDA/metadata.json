@@ -1,0 +1,16 @@
+{
+  "ticker": "NVDA",
+  "features": [
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Volume"
+  ],
+  "window_size": 60,
+  "test_mse": 0.0015206333158746446,
+  "last_close": 227.97999572753906,
+  "last_date": "2026-08-27",
+  "next_day_prediction": 212.9006524957845,
+  "n_history_rows": 1254
+}

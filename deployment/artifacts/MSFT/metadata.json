@@ -1,0 +1,16 @@
+{
+  "ticker": "MSFT",
+  "features": [
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Volume"
+  ],
+  "window_size": 60,
+  "test_mse": 0.0037072598053009467,
+  "last_close": 505.05999755859375,
+  "last_date": "2026-08-27",
+  "next_day_prediction": 485.7541268712557,
+  "n_history_rows": 1254
+}
