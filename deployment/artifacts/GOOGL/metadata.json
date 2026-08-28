@@ -1,0 +1,16 @@
+{
+  "ticker": "GOOGL",
+  "features": [
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Volume"
+  ],
+  "window_size": 60,
+  "test_mse": 0.0017734188700800077,
+  "last_close": 340.6499938964844,
+  "last_date": "2026-08-27",
+  "next_day_prediction": 341.91433164981527,
+  "n_history_rows": 1254
+}

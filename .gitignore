@@ -1,0 +1,11 @@
+# Deployment venv (2GB+, TF-cpu wheel) — recreate with:
+#   py -3.12 -m venv deployment_venv && deployment_venv/Scripts/pip install -r deployment/requirements.txt
+deployment_venv/
+
+# Run logs
+deployment/*.txt
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

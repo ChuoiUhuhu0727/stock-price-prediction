@@ -1,0 +1,16 @@
+{
+  "ticker": "AMZN",
+  "features": [
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Volume"
+  ],
+  "window_size": 60,
+  "test_mse": 0.0037341145254090016,
+  "last_close": 256.260009765625,
+  "last_date": "2026-08-27",
+  "next_day_prediction": 258.1823158919019,
+  "n_history_rows": 1254
+}
