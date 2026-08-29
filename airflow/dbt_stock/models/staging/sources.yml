@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: main
+    tables:
+      - name: raw_prices
+        description: "Raw OHLCV bars landed by the ingestion task (stands in for an Airbyte connector)."

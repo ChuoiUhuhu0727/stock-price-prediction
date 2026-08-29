@@ -2,6 +2,22 @@
 #   py -3.12 -m venv deployment_venv && deployment_venv/Scripts/pip install -r deployment/requirements.txt
 deployment_venv/
 
+# Airflow venv — recreate with (see airflow/README.md):
+#   py -3.12 -m venv airflow_venv
+#   airflow_venv/Scripts/pip install "apache-airflow==2.10.4" --constraint <constraints-url>
+#   airflow_venv/Scripts/pip install dbt-duckdb yfinance duckdb pandas
+airflow_venv/
+
+# Airflow runtime state (metadata db, logs, cfg) — recreated by `airflow db migrate`
+airflow_home/
+
+# dbt runtime state + the local warehouse (recreated by the pipeline)
+airflow/dbt_stock/target/
+airflow/dbt_stock/logs/
+airflow/dbt_stock/dbt_packages/
+airflow/dbt_stock/.user.yml
+airflow/warehouse/
+
 # Run logs
 deployment/*.txt
 

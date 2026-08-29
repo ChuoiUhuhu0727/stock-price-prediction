@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: stg_prices
+    description: "One row per (ticker, trading day), cleaned and typed."
+    columns:
+      - name: ticker
+        tests: [not_null]
+      - name: trade_date
+        tests: [not_null]
+      - name: close
+        tests: [not_null]
