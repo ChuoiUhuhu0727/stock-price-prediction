@@ -1,0 +1,16 @@
+name: 'dbt_stock'
+version: '1.0.0'
+config-version: 2
+profile: 'dbt_stock'
+
+model-paths: ["models"]
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  dbt_stock:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table

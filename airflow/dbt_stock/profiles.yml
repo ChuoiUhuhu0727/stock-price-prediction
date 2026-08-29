@@ -1,0 +1,7 @@
+dbt_stock:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "../warehouse/stock.duckdb"
+      threads: 4

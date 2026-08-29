@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: daily_returns
+    description: "stg_prices + daily return, 20-day SMA, 20-day rolling volatility per ticker."
+    columns:
+      - name: ticker
+        tests: [not_null]
+      - name: trade_date
+        tests: [not_null]
+
+  - name: latest_snapshot
+    description: "Most recent day's metrics per ticker — one row per ticker."
+    columns:
+      - name: ticker
+        tests: [not_null, unique]
